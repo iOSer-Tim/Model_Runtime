@@ -1,7 +1,7 @@
 # Model_Runtime
 Runtime实现iOS字典转模型
 
-字典转模型核心代码：
+字典转模型调用方法：
 ```
 //字典转模型
 +(instancetype)modelWithDict:(id)dict;
