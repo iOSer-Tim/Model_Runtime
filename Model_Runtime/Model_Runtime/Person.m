@@ -14,9 +14,9 @@
     return @{@"grades":@"GradesModel",@"infos":@"InfoModel"};
 }
 
-//重写modelCustomPropertyMapper方法返回字典模型对应的类型：
+//重写modelCustomPropertyMapper方法返回字典模型对应的字段：
 -(NSDictionary <NSString *, id>*)modelCustomPropertyMapper{
-    return @{@"cityName":@"city"};
+    return @{@"cityName":@"city",@"schoolM":@"school"};
 }
 
 @end

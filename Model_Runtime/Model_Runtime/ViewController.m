@@ -75,7 +75,7 @@
     
     NSLog(@"%@--%@",model.cityName,[model.grades firstObject]);
     
-    NSLog(@"%@----%@",model.school.name,model.school.grade.teacher);
+    NSLog(@"%@----%@",model.schoolM.name,model.schoolM.grade.teacher);
     
     NSLog(@"%@",model.infos);
 }

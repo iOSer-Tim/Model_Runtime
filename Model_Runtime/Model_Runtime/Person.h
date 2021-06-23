@@ -25,7 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(nonatomic,copy)NSArray <InfoModel *>* infos;
 
-@property(nonatomic,strong)School * school;
+@property(nonatomic,strong)School * schoolM;
 
 @end
 
