@@ -1,7 +1,11 @@
-# Model_Runtime
-Runtime实现iOS字典转模型
 
-字典转模型调用方法：
+# 前言
+  Runtime实现iOS字典转模型
+
+# 功能
+- 字典转模型
+
+# 使用方法
 ```
 //字典转模型
 +(instancetype)modelWithDict:(id)dict;
@@ -13,7 +17,7 @@ Runtime实现iOS字典转模型
 - (NSDictionary <NSString *, id>*)modelCustomPropertyMapper;
 ```
 
-调用示例,具体参考demo：
+# 调用示例,具体参考demo：
 ```
    //字典转模型
     Person *model = [Person modelWithDict:self.dict];
