@@ -25,9 +25,7 @@
     Ivar *ivars = class_copyIvarList(cls, &Count);
     //遍历所有成员变量
     for (int i=0; i<Count; i++) {
-        
-        @autoreleasepool {
-            
+                    
             //获取成员变量
             Ivar ivar = ivars[i];
             NSString *key = [NSString stringWithUTF8String:ivar_getName(ivar)];
@@ -84,7 +82,6 @@
             }
             //利用KVC将字典中的值设置到模型上
             [self setValue:value forKeyPath:key];
-        }
     }
     free(ivars);
 }
