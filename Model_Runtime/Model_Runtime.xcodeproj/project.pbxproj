@@ -23,6 +23,7 @@
 		DDAB521A2683672A005E832A /* School.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAB52192683672A005E832A /* School.m */; };
 		DDAB522026836738005E832A /* InfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAB521F26836738005E832A /* InfoModel.m */; };
 		DDAB5229268367D3005E832A /* Grade.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAB5228268367D3005E832A /* Grade.m */; };
+		DDF955632698100400E2C97B /* infos.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF955622698100400E2C97B /* infos.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,8 @@
 		DDAB521F26836738005E832A /* InfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfoModel.m; sourceTree = "<group>"; };
 		DDAB5227268367D3005E832A /* Grade.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Grade.h; sourceTree = "<group>"; };
 		DDAB5228268367D3005E832A /* Grade.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Grade.m; sourceTree = "<group>"; };
+		DDF955612698100400E2C97B /* infos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = infos.h; sourceTree = "<group>"; };
+		DDF955622698100400E2C97B /* infos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = infos.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +141,8 @@
 				DDAB520D268366BD005E832A /* GradesModel.m */,
 				DDAB521E26836738005E832A /* InfoModel.h */,
 				DDAB521F26836738005E832A /* InfoModel.m */,
+				DDF955612698100400E2C97B /* infos.h */,
+				DDF955622698100400E2C97B /* infos.m */,
 				DDAB52182683672A005E832A /* School.h */,
 				DDAB52192683672A005E832A /* School.m */,
 				DDAB5227268367D3005E832A /* Grade.h */,
@@ -318,6 +323,7 @@
 				DDAB51AA26835EE7005E832A /* main.m in Sources */,
 				DDAB51F02683624F005E832A /* NSObject+Property.m in Sources */,
 				DDAB51DA26835FD9005E832A /* SceneDelegate.m in Sources */,
+				DDF955632698100400E2C97B /* infos.m in Sources */,
 				DDAB520E268366BD005E832A /* GradesModel.m in Sources */,
 				DDAB521A2683672A005E832A /* School.m in Sources */,
 			);

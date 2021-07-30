@@ -12,6 +12,7 @@
 //重写modelContainerPropertyGenericClass方法返回的数组中字典模型对应的类型：
 - (NSDictionary <NSString *, id>*)modelContainerPropertyGenericClass{
     return @{@"grades":@"GradesModel",@"infos":@"InfoModel"};
+    //return @{@"grades":@"GradesModel"};
 }
 
 //重写modelCustomPropertyMapper方法返回字典模型对应的字段：

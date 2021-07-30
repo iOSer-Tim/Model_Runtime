@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface Grade : BaseModel
 
 @property(nonatomic,copy)NSString * name;
-@property(nonatomic,copy)NSString * teacher;
+@property(nonatomic,copy)NSString * Teacher;
 
 @end
 

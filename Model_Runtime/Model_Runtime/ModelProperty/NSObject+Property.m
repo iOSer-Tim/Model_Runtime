@@ -66,8 +66,12 @@
                     if ([self respondsToSelector:@selector(modelContainerPropertyGenericClass)]) {
                         //获取数组中每个字典对应转换的类型，即重写modelContainerPropertyGenericClass方法返回的类型
                         NSDictionary *classDict = [self modelContainerPropertyGenericClass];
-                        class = NSClassFromString(classDict[key]);
+                        if ([classDict.allKeys containsObject:key]) {
+                            class = NSClassFromString(classDict[key]);
+                        }
+                        
                     }
+                    
                     // 将数组中的所有模型进行字典转模型
                     for (int i=0; i<array.count; i++) {
                         if (class==nil){

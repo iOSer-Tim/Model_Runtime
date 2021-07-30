@@ -9,10 +9,14 @@
 
 #import "NSObject+Property.h"
 #import "Person.h"
+#import "InfoModel.h"
+#import <objc/runtime.h>
 
 @interface ViewController ()
 
 @property(nonatomic,copy)NSDictionary *dict;
+
+@property(nonatomic,copy)NSArray <InfoModel *>* infos;
 
 @end
 
@@ -72,12 +76,15 @@
     
     //字典转模型
     Person *model = [Person modelWithDict:self.dict];
-    
+
     NSLog(@"%@--%@",model.cityName,[model.grades firstObject]);
-    
-    NSLog(@"%@----%@",model.schoolM.name,model.schoolM.grade.teacher);
-    
+
+    NSLog(@"%@----%@",model.schoolM.name,model.schoolM.grade.Teacher);
+
     NSLog(@"%@",model.infos);
+
+    infos *infoModel = model.infos.lastObject;
+    NSLog(@"%d",infoModel.number);
 }
 
 

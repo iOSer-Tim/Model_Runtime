@@ -8,6 +8,7 @@
 #import "BaseModel.h"
 #import "NSObject+Property.h"
 #import "School.h"
+#import "infos.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -23,7 +24,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(nonatomic,copy)NSArray <GradesModel *>* grades;
 
-@property(nonatomic,copy)NSArray <InfoModel *>* infos;
+@property(nonatomic,copy)NSArray <infos *>* infos;
 
 @property(nonatomic,strong)School * schoolM;
 

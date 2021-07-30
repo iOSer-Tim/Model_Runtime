@@ -9,4 +9,9 @@
 
 @implementation Grade
 
+//重写modelCustomPropertyMapper方法返回字典模型对应的字段：
+-(NSDictionary <NSString *, id>*)modelCustomPropertyMapper{
+    return @{@"Teacher":@"teacher"};
+}
+
 @end
